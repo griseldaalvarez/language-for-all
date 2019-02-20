@@ -1,6 +1,43 @@
 .first_letter{
-  color: red;
+  color: #fff;
   font-family: 'Charm', cursive;
   font-weight: 600;
-  font-size: 400px;
+  font-size: 100px;
+  margin-left: 59px;
+}
+
+.second_letters{
+  color: #fff;
+  margin-top: 34px;
+  font-family: 'Coiny', cursive;
+  font-weight: 300;
+}
+
+#navbar{
+  background-color: #000;
+}
+
+/* THIS DID NOT WORK GET HELP */
+
+/* .animated{
+  background: url('img/blackwhitestripes.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
+}
+
+/* Text background animation */
+@keyframes moveBg {
+  0%{
+    background-position: 0% 30%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+} */
+
+
+.nav{
+  margin-top: 85px;
 }

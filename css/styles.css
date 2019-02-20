@@ -1,3 +1,5 @@
+/* beginning of nav */
+
 .first_letter{
   color: #fff;
   font-family: 'Charm', cursive;
@@ -41,3 +43,49 @@
 .nav{
   margin-top: 85px;
 }
+
+/*end of nav  */
+
+/* beginning carousel */
+.wrap{
+  min-height: 100vh;
+}
+
+.carousel{
+  margin-bottom: 60px;
+}
+
+.carousel-caption{
+  z-index: 10;
+  padding-bottom: 60px;
+}
+
+.carousel-inner .item{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .main_img1{
+  background-image: url("../img/code-img.jpg");
+} */
+
+.main_img2{
+  background-image: url("../img/mandarin-img.jpg");
+}
+
+.main_img3{
+  background-image: url("../img/spanish-img.jpg");
+}
+
+.main_img4{
+  background-image: url("../img/asl-img.jpg");
+}
+
+.main_img{
+  max-height: 300px;
+}
+
+
+/*end of carousel  */

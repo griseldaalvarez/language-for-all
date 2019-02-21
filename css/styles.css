@@ -1,301 +1,93 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+/* beginning of nav */
 
-
-.logo{
-  width: 80px;
-}
-
-
-header h1{
-  color: #c9c983;
-  font-family: "satisfy", cursive;
-  margin-top: 20px;
-}
-
-.nav-pills>li.active>a{
-  color: #5c433f;
-  background-color: #eeddcd;
-}
-
-.nav-pills>li.active>a:hover{
-  background-color: #edf1f4;
-  color: #5c433f;
-}
-
-nav li{
-  font-size; 15px;
-}
-
-.jumbotron{
-  background-image: url('../img/hero.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 450px;
-}
-
-
-
-/* li a, .jumbotron button{
-  border: 1px solid #5c433f;
-  color: #5c433f;
-  font-family: "open Sans", sans-serif;
-  font-weight: 400;
-}
-a:hover{
-  text-decoration: none;
-}
-
-nav{
-  top:20px;
-}
-
-.jumbotron h2{
-  font-family: "open sans", sans-serif;
-  font-weight: 300;
+.first_letter{
   color: #fff;
+  font-family: 'Charm', cursive;
+  font-weight: 600;
+  font-size: 100px;
+  margin-left: 59px;
 }
 
-.featured{
+.second_letters{
+  color: #fff;
+  margin-top: 34px;
+  font-family: 'Coiny', cursive;
+  font-weight: 300;
+}
+
+#navbar{
+  background-color: #000;
+}
+
+/* THIS DID NOT WORK GET HELP */
+
+ .animated{
+  background: url('img/blackwhitestripes.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  z-index: -1;
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
+}
+
+/* Text background animation */
+@keyframes moveBg {
+  0%{
+    background-position: 0% 30%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
+
+
+.nav{
+  margin-top: 85px;
+}
+
+/*end of nav  */
+
+/* beginning carousel */
+.wrap{
+  min-height: 100vh;
+}
+
+.carousel{
   margin-bottom: 60px;
 }
 
-.product{
-  background-color: #eeddcd;
-  border-radius:5%;
-  borderd: 5px solid rgb (232, 232, 232);
-
+.carousel-caption{
+  z-index: 10;
+  padding-bottom: 60px;
 }
 
-.img_box{
-  margin: 10px 0px;
+.carousel-inner .item{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
 }
 
-.product button{
-  margin-bottom: 10px;
-  background-color: rgb (252, 252, 252);
-  border: 1px solid #5c43ff;
-}
- */
+/* .main_img1{
+  background-image: url("../img/code-img.jpg");
+} */
 
-
-
-
-
-
-.box{
-  background-color: #eeddcd;
-  margin-top: 35px;
-  border-top: 12px solid #eeddcd;
+.main_img2{
+  background-image: url("../img/mandarin-img.jpg");
+  background-size: cover;
 }
 
-.bow_wow{
-  border-right: 5px white solid;
+.main_img3{
+  background-image: url("../img/spanish-img.jpg");
 }
 
-.meow{
-
-  border-right: 5px white solid;
+.main_img4{
+  background-image: url("../img/asl-img.jpg");
 }
 
-.birdy{
-
-  margin-top: auto;
-}
-
-.rectangle{
-  background-color: #eeddcd;
-}
-
-.footer {
-  height: 120px;
-  background-color: #eeddcd;
-  margin-top: 55px;
-}
-
-.link{
-  margin-top: 35px;
-}
-
-.fine_print{
-  margin-top: 10px;
-  margin-bottom: 15px;
-  color: #333;
-}
-
-@media (max-width: 768px) {
-  .centered {
-    float: none;
-    margin: 0 auto;
-  }
-
-  nav{
-    padding-top: 0px;
-    padding-bottom: 10px;
-    top: 5px;
-  }
-
-  .social{
-    text-align: center;
-    font-size: 45px;
-  }
-
-  .social i {
-    margin: 20px 10px 0px;
-  }
-
-  aside{
-    margin-bottom: 60px;
-  }
-
+.main_img{
+  max-height: 300px;
 }
 
 
-.down{
-  margin-top: 10px;
-}
-
-.doggy{
-  border-left: 1px solid black;
-}
-
-.social{
-  border-left: 1px solid black;
-}
-/* end of index page */
-
-
-/* BEGINNING OF PRODUCTS PAGE */
-
-
-
-#top-page h1{
-  font-family: 'Poppins', sans-serif;
-  margin-top: 55px;
-  font-size: 45px;
-}
-
-.vet:hover{
-  color: #ff3399;
-}
-
-#top-page img:hover{
-  height: 300px;
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-hr{
-  border-color: #000;
-  border-width: thick;
-  margin-top: 50px;
-}
-
-.middle{
-  font-size: 60px;
-  margin-top: 45px;
-  font-family: 'Charm', cursive;
-}
-
-.apoquel{
-  margin-top: 20px;
-}
-.btn{
-  margin-left: 40px;
-  margin-top: 55px;
-}
-
-.btn2{
-  margin-top: 35px;
-  margin-left: 20px;
-}
-
-.heartgard{
-  margin-top: 30px;
-}
-
-.btn3{
-  margin-top: 50px;
-  margin-left: 35px;
-}
-
-.center{
-  margin-top: 95px;
-}
-
-.zycortal{
-  margin-left: 45px;
-}
-
-.btn4{
-  margin-left: 50px;
-  margin-top: 20px;
-}
-
-.btn5{
-  margin-left: 45px;
-  margin-top: 30px;
-}
-
-.nutra{
-  width: 160px;
-  height: 180px;
-  margin-left: 34px;
-  margin-top: 40px;
-}
-
-.btn6{
-  margin-top: 28px;
-  margin-left: 45px;
-}
-
-
-/* END OF PRODUCTS PAGE */
-
-
-
-/* beginning of contact page */
-
-.doctor_img{
-  margin-top: 55px;
-}
-
-.feature{
-  margin-top: 55px;
-}
-
-.female_doctor_img{
-  margin-bottom: 15px;
-}
-
-
-.text{
-  font-weight: 300;
-  margin-top: 25px;
-}
-
-.map{
-  margin-left: 95px;
-  margin-top: 55px;
-}
-
-.animal{
-  margin-top: 20px;
-}
-
-.cat_picture{
-  margin-left: 105px;
-}
+/*end of carousel  */

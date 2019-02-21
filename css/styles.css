@@ -21,10 +21,11 @@
 
 /* THIS DID NOT WORK GET HELP */
 
-/* .animated{
+ .animated{
   background: url('img/blackwhitestripes.jpg');
   background-clip: text;
   -webkit-background-clip: text;
+  z-index: -1;
   animation: moveBg 90s linear infinite;
   -webkit-animation: moveBg 90s linear infinite;
 }
@@ -37,7 +38,7 @@
   100%{
     background-position: 100% 50%;
   }
-} */
+}
 
 
 .nav{
@@ -73,6 +74,7 @@
 
 .main_img2{
   background-image: url("../img/mandarin-img.jpg");
+  background-size: cover;
 }
 
 .main_img3{

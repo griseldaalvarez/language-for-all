@@ -103,6 +103,22 @@
 .fa{
   margin-top: 60px;
   margin-left: 60px;
-
+  padding: 10px;
 }
+
+.fa-facebook:hover{
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+}
+
+.fa-instagram:hover{
+  border-radius: 50px;
+  color: #ff6699;
+  background-color: #660066;
+}
+
+
+
+
 /*end of footer  */

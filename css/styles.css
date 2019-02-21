@@ -48,9 +48,9 @@
 /*end of nav  */
 
 /* beginning carousel */
-.wrap{
+/* .wrap{
   min-height: 100vh;
-}
+}*/
 
 .carousel{
   margin-bottom: 60px;
@@ -68,21 +68,22 @@
   background-position: center;
 }
 
-/* .main_img1{
-  background-image: url("../img/code-img.jpg");
-} */
+.main_img1{
+  background-image: url("../img/students1.jpeg");
+}
 
-.main_img2{
-  background-image: url("../img/mandarin-img.jpg");
+ .main_img2{
+  background-image: url("../img/student2.jpeg");
   background-size: cover;
+  width: 100%;
 }
 
 .main_img3{
-  background-image: url("../img/spanish-img.jpg");
+  background-image: url("../img/student3.jpeg");
 }
 
 .main_img4{
-  background-image: url("../img/asl-img.jpg");
+  background-image: url("../img/student4.jpeg");
 }
 
 .main_img{
@@ -116,6 +117,18 @@
   border-radius: 50px;
   color: #ff6699;
   background-color: #660066;
+}
+
+.fa-twitter:hover{
+  border-radius: 50px;
+  color:#1da1f2;
+  background-color: #fff;
+}
+
+.fa-snapchat-ghost:hover{
+  border-radius: 50px;
+  color: #fff;
+  background-color:#fdfb08;
 }
 
 

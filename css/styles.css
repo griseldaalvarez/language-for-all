@@ -91,3 +91,18 @@
 
 
 /*end of carousel  */
+
+
+/*beginning of footer  */
+#footer{
+  background-color: #000;
+  /* justify-content: flex-end; */
+  height: 150px;
+}
+
+.fa{
+  margin-top: 60px;
+  margin-left: 60px;
+
+}
+/*end of footer  */

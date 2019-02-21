@@ -26,12 +26,12 @@
   background-clip: text;
   -webkit-background-clip: text;
   z-index: -1;
-  animation: moveBg 90s linear infinite;
+  animation: mov 90s linear infinite;
   -webkit-animation: moveBg 90s linear infinite;
 }
 
 /* Text background animation */
-@keyframes moveBg {
+@keyframes mov {
   0%{
     background-position: 0% 30%;
   }

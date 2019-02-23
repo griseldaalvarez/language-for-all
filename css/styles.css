@@ -89,9 +89,22 @@
 .main_img{
   max-height: 300px;
 }
-
-
 /*end of carousel  */
+
+
+
+/* beginning of language classes */
+#languages{
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+
+
+}
+
+/* beginning of language classes */
+
+
 
 
 /*beginning of footer  */

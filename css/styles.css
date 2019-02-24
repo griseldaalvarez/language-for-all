@@ -94,12 +94,15 @@
 
 
 /* beginning of language classes */
-#languages{
+.languages{
   background-color: #000;
   color: #fff;
-  height: 50px;
+  height: 250px;
+}
 
-
+.second{
+  border-top: 5px solid white;
+  border-bottom: 5px solid #fff;
 }
 
 /* beginning of language classes */

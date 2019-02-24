@@ -90,20 +90,46 @@
   max-height: 300px;
 }
 
-.child :first-child{
+.child1::before{
+  content: "BELIEVE ";
   color: #000;
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+}
+
+.child2::before{
+  content: "ACHIEVE ";
+  color: #000;
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+}
+
+.child3::after{
+  content: " UNSTOPPABLE";
+  color: #000;
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+}
+
+.child4::before{
+  content: "EMPOWERING ";
+  color: #000;
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
 }
 /*end of carousel  */
 
 
 
 /* beginning of language classes */
+
 .languages{
-  background-color: #000;
+  background-color: #33334d;
   color: #fff;
   height: 350px;
   border-bottom: 5px solid #fff;
 }
+
 
 .right_border{
   border-right: 5px solid #fff;

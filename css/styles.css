@@ -89,6 +89,10 @@
 .main_img{
   max-height: 300px;
 }
+
+.child :first-child{
+  color: #000;
+}
 /*end of carousel  */
 
 

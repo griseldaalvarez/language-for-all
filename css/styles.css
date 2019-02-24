@@ -97,13 +97,15 @@
 .languages{
   background-color: #000;
   color: #fff;
-  height: 250px;
-}
-
-.second{
-  border-top: 5px solid white;
+  height: 350px;
   border-bottom: 5px solid #fff;
 }
+
+.right_border{
+  border-right: 5px solid #fff;
+}
+
+
 
 /* beginning of language classes */
 

@@ -142,6 +142,11 @@ body{
   border-right: 5px solid #fff;
 }
 
+#classes h1{
+  border-bottom: 3px dotted #fff;
+  margin-top: 35px;
+}
+
 
 #classes p{
   font-size: 28px;

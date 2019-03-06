@@ -15,9 +15,16 @@
   font-weight: 300;
 }
 
+
 #navbar{
   background-color: #000;
 }
+
+body{
+  background-color: #000;
+}
+
+
 
 /* THIS DID NOT WORK GET HELP */
 
@@ -134,6 +141,18 @@
 .right_border{
   border-right: 5px solid #fff;
 }
+
+.break{
+  color: #000;
+}
+
+#classes p{
+  font-size: 30px;
+  margin-top: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+
 
 
 

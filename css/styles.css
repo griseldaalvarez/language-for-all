@@ -154,6 +154,15 @@ body{
   font-family: 'Lobster', cursive;
 }
 
+button {
+  background-color: #fff;
+  color: #000;
+}
+
+.bottom_button {
+  margin-top: 15px;
+}
+
 
 
 

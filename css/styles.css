@@ -154,6 +154,26 @@ body{
   font-family: 'Lobster', cursive;
 }
 
+button {
+  background-color: #fff;
+  color: #000;
+}
+
+.code_button {
+  margin-top: 19px;
+}
+
+.mandarin_button {
+  margin-top: 5px;
+}
+
+.asl_button{
+  margin-top: 35px;
+}
+
+.spanish_button{
+  margin-top: 37px;
+}
 
 
 

@@ -159,10 +159,21 @@ button {
   color: #000;
 }
 
-.bottom_button {
-  margin-top: 15px;
+.code_button {
+  margin-top: 19px;
 }
 
+.mandarin_button {
+  margin-top: 5px;
+}
+
+.asl_button{
+  margin-top: 35px;
+}
+
+.spanish_button{
+  margin-top: 37px;
+}
 
 
 

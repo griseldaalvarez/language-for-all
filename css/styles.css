@@ -175,10 +175,38 @@ button {
   margin-top: 37px;
 }
 
+/* end of language classes */
 
 
 
-/* beginning of language classes */
+
+/* beginning of Enroll Page */
+
+#Enroll{
+  background-color: #fff;
+  height: 100vh;
+}
+
+.enroll_text{
+  font-size: 45px;
+}
+
+
+
+
+/* .enroll{
+  background-image: url('../img/languages.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.1;
+  z-index: -1;
+} */
+
+
+
+/* end of enroll page */
+
 
 
 

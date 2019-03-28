@@ -163,12 +163,24 @@ button {
   margin-top: 19px;
 }
 
+.code_button a{
+  color: black;
+}
+
 .mandarin_button {
   margin-top: 5px;
 }
 
+.mandarin_button a{
+  color: black;
+}
+
 .asl_button{
   margin-top: 35px;
+}
+
+.asl_button a{
+  color: black;
 }
 
 .spanish_button{

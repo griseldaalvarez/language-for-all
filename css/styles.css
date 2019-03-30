@@ -200,15 +200,19 @@ button {
 
 #Enroll{
   /* background-color: transparent; */
-  height: 100vh;
+  height: 90vh;
   background-image: url('../img/languages.png');
+  background-size: cover;
   
+
 }
 
 
 
 .enroll_text{
   font-size: 65px;
+  color: red;
+  
   
 }
 

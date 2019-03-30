@@ -233,11 +233,52 @@ button {
   z-index: -1;
 } */
 
-
-
 /* end of enroll page */
 
 
+
+
+
+
+/* beginning of about page */
+
+.picturelogo{
+  color: red;
+  font-weight: bold;
+}
+
+.mylogo{
+  background-color: white;
+  width: 110%;
+  height: 90vh;
+  border: solid 5px red;
+}
+
+.picturelogo{
+  font-family: 'Lobster Two', cursive;
+  font-size: 55px;
+  color: #660033;
+}
+
+.aboutme{
+font-family: 'Lobster', cursive;
+font-size: 55px;
+color: #660033;
+}
+
+.hr{
+  color: #660033;
+  size: 25px;
+}
+
+
+.aboutPara{
+  background-color: white;
+  height: 90vh;
+  border: solid 5px red;
+}
+
+/* end of about page */
 
 
 

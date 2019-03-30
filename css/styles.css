@@ -163,22 +163,80 @@ button {
   margin-top: 19px;
 }
 
+.code_button a{
+  color: black;
+}
+
 .mandarin_button {
   margin-top: 5px;
+}
+
+.mandarin_button a{
+  color: black;
 }
 
 .asl_button{
   margin-top: 35px;
 }
 
+.asl_button a{
+  color: black;
+}
+
 .spanish_button{
   margin-top: 37px;
+}
+
+.spanish_button a{
+  color: black;
+}
+
+/* end of language classes */
+
+
+
+
+/* beginning of Enroll Page */
+
+#Enroll{
+  /* background-color: transparent; */
+  height: 90vh;
+  background-image: url('../img/languages.png');
+  background-size: cover;
+  
+
+}
+
+
+
+.enroll_text{
+  font-size: 65px;
+  color: red;
+  
+  
+}
+
+.p_text{
+  font-size: 15px;
+ 
 }
 
 
 
 
-/* beginning of language classes */
+/* .enroll{
+  background-image: url('../img/languages.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.1;
+  z-index: -1;
+} */
+
+
+
+/* end of enroll page */
+
 
 
 

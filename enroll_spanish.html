@@ -15,9 +15,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
+
+    
   <!--beginning of navbar  -->
   <div class="container-fluid" id="navbar">
-        <header class="row">
+    <header class="row" >
           <div class="col-md-1">
             <h1 class="first_letter animated">B</h1>
           </div>
@@ -44,18 +46,26 @@
 
       
       <div  class="container-fluid" id="Enroll">
-          <section class="row">
+          
+          <section class="row "id="backgroundpic" >
+
+          <div class="col-md-10 col-md-offset-1">
           <h1 class="enroll_text text-center"><b>Enroll and Learn Spanish Today!</b></h1>
+          <div class="enroll_box">
           <p class="p_text text-center"><b>Type your name, and you're in.</b></p>
-          <form id= "enrolltodayForm" class="input-group container">
+          <form id= "enrolltodayForm" class="input-group container col-md-10">
                 <input id="enrolltodayInput" placeholder="Enter your name" class="form-control">
                 <button id="enrollButton" type='button' onClick="enrollList()">Enroll Today</button>
-          </form>
-          <ol id="enrollList" class="container">
 
-          </ol>
+                <ol id="enrollList">
+
+                  </ol>
+          </form>
           
-          <!-- <img class="enroll" src="img/languages.png" alt="picture with the word hello in different languages"> -->
+        </div>
+      </div>
+          
+          
         </section>
 
 

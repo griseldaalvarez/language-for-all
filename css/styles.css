@@ -97,8 +97,13 @@ body{
   max-height: 300px;
 }
 
+.child1, .child2, .child3, .child4{
+  text-shadow: 4px 4px black;
+}
+
 .child1::before{
   content: "BELIEVE ";
+  text-shadow: 4px 4px white;
   color: #000;
   font-family: 'Lobster', cursive;
   font-size: 75px;
@@ -106,6 +111,7 @@ body{
 
 .child2::before{
   content: "ACHIEVE ";
+  text-shadow: 4px 4px white;
   color: #000;
   font-family: 'Lobster', cursive;
   font-size: 75px;
@@ -113,6 +119,7 @@ body{
 
 .child3::after{
   content: " UNSTOPPABLE";
+  text-shadow: 4px 4px white;
   color: #000;
   font-family: 'Lobster', cursive;
   font-size: 75px;
@@ -120,6 +127,7 @@ body{
 
 .child4::before{
   content: "EMPOWERING ";
+  text-shadow: 4px 4px white;
   color: #000;
   font-family: 'Lobster', cursive;
   font-size: 75px;
@@ -198,20 +206,29 @@ button {
 
 /* beginning of Enroll Page */
 
-#Enroll{
+#backgroundpic{
   /* background-color: transparent; */
   height: 90vh;
   background-image: url('../img/languages.png');
   background-size: cover;
-  
-
 }
+
+.enroll_box{
+  background-color: rgba(250, 250, 250, 0.8);
+  border: thin solid #000;
+}
+
+
+
 
 
 
 .enroll_text{
   font-size: 65px;
   color: red;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  text-shadow: 5px 5px black;
   
   
 }
